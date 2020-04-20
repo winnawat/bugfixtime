@@ -1,0 +1,51 @@
+Name;Owner;Manager;Category;JiraName;JiraRepository;GitRepository;Released;Site
+Spark;ASF;Apache Spark Committee;big-data;SPARK;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/spark.git;2014;https://spark.apache.org/
+Ozie;ASF;Apache Oozie Committee;big-data;OOZIE;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/oozie.git;2012;http://oozie.apache.org/
+Kafka;ASF;Apache Kafka Committee;big-data;KAFKA;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/kafka.git;2013;http://kafka.apache.org/
+Storm;ASF;Apache Storm Committee;big-data;STORM;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/storm.git;2017;http://storm.apache.org/
+Giraph;ASF;Apache Giraph Committee;big-data;GIRAPH;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/giraph.git;2018;http://giraph.apache.org/
+Hive;ASF;Apache Hive Committee;database;HIVE;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/hive.git;2010;http://hive.apache.org/
+Cassandra;ASF;Apache Cassandra Committee;database;CASSANDRA;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/cassandra.git;2009;http://cassandra.apache.org/
+Lucene Core;ASF;Apache Lucene Committee;database;LUCENE;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/lucene-solr.git;2006;http://lucene.apache.org/
+HBase;ASF;Apache HBase Committee;database;HBASE;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/hbase.git;2015;https://hbase.apache.org/
+ZooKeeper;ASF;Apache ZooKeeper Committee;database;ZOOKEEPER;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/zookeeper.git;2011;https://zookeeper.apache.org/
+Derby;ASF;Apache DB Committee;database;DERBY;https://issues.apache.org/jira/;https://github.com/apache/derby.git;2005;http://db.apache.org/derby/
+OpenJPA;ASF;Apache OpenJPA Committee;database;OPENJPA;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/openjpa.git;2007;http://openjpa.apache.org/
+Phoenix;ASF;Apache Phoenix Committee;database;PHOENIX;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/phoenix.git;2014;http://phoenix.apache.org/
+Libcloud;ASF;Apache Libcloud Committee;cloud;LIBCLOUD;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/libcloud.git;2011;http://libcloud.apache.org/
+jclouds;ASF;Apache jclouds Committee;cloud;JCLOUDS;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/jclouds.git;2013;http://jclouds.apache.org/
+Mesos;ASF;Apache Mesos Committee;cloud;MESOS;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/mesos.git;2013;http://mesos.apache.org/
+VCL;ASF;Apache VCL Committee;cloud;VCL;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/vcl.git;2013;http://vcl.apache.org/
+Helix;ASF;Apache Helix Committee;cloud;HELIX;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/helix.git;2014;http://helix.apache.org/
+Ignite;ASF;Apache Ignite Committee;cloud;IGNITE;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/ignite.git;2015;https://ignite.apache.org/
+TomEE;ASF;Apache TomEE Committee;network-server;TOMEE;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/tomee.git;2013;https://tomee.apache.org/
+Mina;ASF;Apache MINA Committee;network-server;DIRMINA;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/mina.git;2006;http://mina.apache.org/
+Mina FtpServer;ASF;Apache MINA Committee;network-server;FTPSERVER;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/mina-ftpserver.git;2008;http://mina.apache.org/sshd-project
+Mina SSHD;ASF;Apache MINA Committee;network-server;SSHD;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/mina-sshd.git;2009;http://mina.apache.org/ftpserver-project/
+Mina Vysper;ASF;Apache MINA Committee;network-server;VYSPER;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/mina-vysper.git;2010;http://mina.apache.org/vysper-project
+Camel;ASF;Apache Camel Committee;network-server;CAMEL;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/camel.git;2009;http://camel.apache.org/
+MyFaces;ASF;Apache MyFaces Committee;web-framework;MYFACES;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/myfaces.git;2005;http://myfaces.apache.org/
+Struts;ASF;Apache Struts Committee;web-framework;WW;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/struts.git;2002;https://struts.apache.org/
+Nutch;ASF;Apache Nutch Committee;web-framework;NUTCH;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/nutch.git;2012;http://nutch.apache.org/
+Isis;ASF;Apache Isis Committee;web-framework;ISIS;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/isis.git;2013;http://isis.apache.org/
+Solr;ASF;Apache Lucene Committee;web-framework;SOLR;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/lucene-solr.git;2006;http://lucene.apache.org/solr/
+Tapestry;ASF;Apache Tapestry Committee;web-framework;TAP5;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/tapestry-5.git;2006;http://tapestry.apache.org/
+Kerby;ASF;Apache Directory Committee;security;DIRKRB;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/directory-kerby.git;2006;http://directory.apache.org/kerby/
+Fortress;ASF;Apache Directory Committee;security;FC;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/directory-fortress-commander.git#https://gitbox.apache.org/repos/asf/directory-fortress-core.git#https://gitbox.apache.org/repos/asf/directory-fortress-enmasse.git#https://gitbox.apache.org/repos/asf/directory-fortress-realm.git;2015;http://directory.apache.org/fortress/
+Syncope;ASF;Apache Syncope Committee;security;SYNCOPE;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/syncope.git;2012;http://syncope.apache.org/
+Archiva;ASF;Apache Archiva Committee;build-management;MRM;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/archiva.git;2007;http://archiva.apache.org/
+Ivy;ASF;Apache Ant Committee;build-management;IVY;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/ant-ivy.git;2006;http://ant.apache.org/ivy/
+Maven;ASF;Apache Maven Committee;build-management;MNG;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/maven.git#https://gitbox.apache.org/repos/asf/maven-integration-testing.git;2012;https://maven.apache.org/
+Buildr;ASF;Apache Buildr Committee;build-management;BUILDR;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/buildr.git;2009;http://buildr.apache.org/
+Commons Compress;ASF;Apache Commons Committee;library;COMPRESS;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/commons-compress.git;2009;http://commons.apache.org/compress/
+Commons Collections;ASF;Apache Commons Committee;library;COLLECTIONS;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/commons-collections.git;2001;http://commons.apache.org/collections/
+Commons IO;ASF;Apache Commons Committee;library;IO;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/commons-io.git;2004;http://commons.apache.org/io/
+Commons Math;ASF;Apache Commons Committee;library;MATH;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/commons-math.git;2004;http://commons.apache.org/math/
+Commons Codec;ASF;Apache Commons Committee;library;CODEC;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/commons-codec.git;2003;http://commons.apache.org/codec/
+Commons Lang;ASF;Apache Commons Committee;library;LANG;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/commons-lang.git;2002;http://commons.apache.org/lang/
+Log4J 2;ASF;Apache Logging Services Committee;library;LOG4J2;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/logging-log4j2.git;2014;https://logging.apache.org/log4j/2.x/
+Crunch;ASF;Apache Crunch Committee;library;CRUNCH;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/crunch.git;2013;http://crunch.apache.org/
+Tika;ASF;Apache Tika Committee;library;TIKA;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/tika.git;2011;http://tika.apache.org/
+SystemML;ASF; Apache SystemML Committee;machine-learning;SYSTEMML;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/systemml.git;2017;http://systemml.apache.org/
+Mahout;ASF;Apache Mahout Committee;machine-learning;MAHOUT;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/mahout.git;2010;http://mahout.apache.org/
+MADlib;ASF;Apache MADlib Committee;machine-learning;MADLIB;https://issues.apache.org/jira/;https://gitbox.apache.org/repos/asf/madlib.git;2017;http://madlib.apache.org/
