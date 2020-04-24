@@ -18,3 +18,29 @@ No modifications were made to the data hosted here. The CSV file hosted in this 
 
 ### Data Processing
 Running `mining-script.py` as specified by the README file in the research article generates 3 CSV files for each of the 55 Apache Software project. The data used in here is a appended table created from the `<projectname>-jira-bug-fix-dataset` file from each project.
+
+## Findings
+3 types of model were deployed in this study,
+- Linear regression with L2 regularization (ridge regression)
+- Decision Tree
+- Random Forest (ensemble of multiple decision trees)
+
+For 39,488 bugs in the test set,
+- Ridge Regression root mean squared error: 187.55
+- Decision Tree root mean squared error: 186.65
+- Random Forest root mean squared error: 186.57
+Based on the errors alone, Random Forest appears to be the best choice, with the smallest error among the models attempted.  
+### Utility Function
+Implementing a utility function in a hypothetical situation.  
+Over-prediction would cost $100 excess spending per day.  
+Under-prediction would cost $150 excess spending per day.  
+With this imbalanced cost function,  
+Total excess spending using ridge regression model: $258,350,050
+Total excess spending using decision tree model: $253,309,100
+Total excess spending using random forest model: $253,462,250
+Total excess spending using just the mean value (64 days) as the predicted variable: $272,283,700
+
+### Scenario - Limited Budget
+Assuming a limited budget of $50 million, Apache foundation can choose to only address bugs that are predicted to take 35 days or less. The visualization behind this decision is shown below.
+
+![limited-budget](limited-budget-plot.png)
