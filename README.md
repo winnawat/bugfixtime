@@ -41,10 +41,10 @@ In order to mimic a real life scenario where predictions translate to cost, this
 Over-prediction would cost $100 excess spending per day.  
 Under-prediction would cost $150 excess spending per day.  
 With this imbalanced cost function,  
-Total excess spending using ridge regression model: $258,350,050
-Total excess spending using decision tree model: $253,309,100
-Total excess spending using random forest model: $253,462,250
-Total excess spending using just the mean value (64 days) as the predicted variable: $272,283,700
+- Total excess spending using ridge regression model: $258,350,050
+- Total excess spending using decision tree model: $253,309,100
+- Total excess spending using random forest model: $253,462,250
+- Total excess spending using just the mean value (64 days) as the predicted variable: $272,283,700
 
 ### Scenario - Limited Budget
 Assuming a limited budget of $50 million, Apache foundation can choose to only address bugs that are predicted to take 35 days or less. The visualization behind this decision is shown below.
