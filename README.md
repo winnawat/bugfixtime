@@ -29,7 +29,11 @@ For 39,488 bugs in the test set,
 - Ridge Regression root mean squared error: 187.55
 - Decision Tree root mean squared error: 186.65
 - Random Forest root mean squared error: 186.57
-Based on the errors alone, Random Forest appears to be the best choice, with the smallest error among the models attempted.  
+Based on the errors alone, Random Forest appears to be the best choice, with the smallest error among the models attempted.
+
+## Plot of predicted DaysToFix vs actual DaysToFix - Random Forest
+Comparing the predicted values against the actual values. This gives a quick overview of the quality of predictions.
+
 ### Utility Function
 Implementing a utility function in a hypothetical situation.  
 Over-prediction would cost $100 excess spending per day.  
