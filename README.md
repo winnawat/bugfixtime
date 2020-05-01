@@ -34,6 +34,7 @@ Based on the errors alone, Random Forest appears to be the best choice, with the
 
 ## Plot of predicted DaysToFix vs actual DaysToFix - Random Forest
 Comparing the predicted values against the actual values. This gives a quick overview of the quality of predictions.
+![yyplot](random-forest-predicted-actual.png)
 
 ## Utility Function
 In order to mimic a real life scenario where predictions translate to cost, this project will also attempt to evaluate the models' performance using a utility function. This involves defining a hypothetical situation which translates the predictions into actual cost.  
@@ -47,6 +48,6 @@ With this imbalanced cost function,
 - Total excess spending using just the mean value (64 days) as the predicted variable: $272,283,700
 
 ### Scenario - Limited Budget
-Assuming a limited budget of $50 million, Apache foundation can choose to only address bugs that are predicted to take 35 days or less. The visualization behind this decision is shown below.
+Assuming a limited budget of $50 million, Apache foundation can choose to only address bugs that are predicted to take 35 days or less. The visualization behind this decision is shown below. Given the limited budget of $50 million, from the top 2 graphs, using Random Forest model will allow Apache to address the most number of bugs. Through the bottom two charts, keeping the excess spending below $50 is done through only fixing bugs with DaysToFix of 35 days or less.
 
 ![limited-budget](limited-budget-plot.png)
