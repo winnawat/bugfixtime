@@ -30,10 +30,12 @@ For 39,488 bugs in the test set,
 - Decision Tree root mean squared error: 186.65
 - Random Forest root mean squared error: 186.57
 
-Based on the errors alone, Random Forest appears to be the best choice, with the smallest error among the models attempted.
+Based on the errors alone, Random Forest appears to be the best choice, with the smallest error among the models attempted.  
+Still, it is worth noting that the predictions are wildly inaccurate and are only slightly better than randomly guessing. As such, the main takeaway would actually be that the information available at the time when a bug is filed is not sufficient to produce a reliable prediction of how many days it would take to fix that bug.
 
 ## Plot of predicted DaysToFix vs actual DaysToFix - Random Forest
 Comparing the predicted values against the actual values. This gives a quick overview of the quality of predictions.
+We can see that there is a weak correlation between the actual values and their corresponding predicted values. Still, no clear and strong pattern can be derived from this model's prediction. Also, the model is noticeably worse at predicting bugs that take very long to fix. Hence, it is very likely that the information available at the time the bugs are filed is not sufficient to reliably predict how many days it would take to fix the bugs. At best, the model is able to make use of that information to give a very rough estimate of the number of days needed to fix the bugs.
 ![yyplot](random-forest-predicted-actual.png)
 
 ## Utility Function
